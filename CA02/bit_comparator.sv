@@ -1,0 +1,25 @@
+`timescale 1ns/1ns
+
+module bit_comparator(input a,b,e,l,g, output E,L,G);
+
+wire y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y13;
+not1 t1(b, y1);
+not1 t2(a, y2);
+nor1 r1(y1,a,y4);
+nor1 r2(y2, b,y3);
+nor1 r3 (y3,y4,y5);
+not1 t4(y5, y6);//base
+
+not1 t5(e, y7);
+nor1 r5 (y6,y7,E);//E exit
+
+not1 t6(l, y11);
+nor1 r6 (y6,y11,y10);
+nor1 r7 (y4,y10,y12);
+not1 t9(y12,L);//L exit
+
+not1 t7(g, y8);
+nor1 r8 (y6,y8,y9);
+nor1 r9 (y3,y9,y13);
+not1 t10(y13,G);//G exit
+endmodule

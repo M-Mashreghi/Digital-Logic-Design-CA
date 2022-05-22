@@ -1,0 +1,8 @@
+`timescale 1ns/1ns
+module bit_comparator2 (input a,b,e,l,g, output E,L,G);
+
+    assign  L = (a < b) | ((a == b) & (l == 1'b1));
+    assign  G = (a > b) | ((a == b) & g);
+    assign  E = (a == b) & (e == 1'b1);    
+
+endmodule
