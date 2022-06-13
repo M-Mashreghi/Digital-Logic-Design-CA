@@ -1,0 +1,899 @@
+# Compile of dlatch_tb.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.MSRR8_Q6
+# vsim -gui work.MSRR8_Q6 
+# Start time: 20:27:55 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q6
+# Loading work.MSRR8_Q5
+# Loading work.multiplexer4
+# Loading work.DRlatch
+add wave -position end  sim:/MSRR8_Q6/sIn
+add wave -position end  sim:/MSRR8_Q6/clc
+add wave -position end  sim:/MSRR8_Q6/R
+add wave -position end  sim:/MSRR8_Q6/mode
+add wave -position end  sim:/MSRR8_Q6/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftmj1czv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmj1czv
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/MSSR8_Q6.sv(19)
+#    Time: 8230 ns  Iteration: 0  Instance: /MSRR8_Q6
+# Break in Module MSRR8_Q6 at C:/Users/M.M/Desktop/CA4/MSSR8_Q6.sv line 19
+quit -sim
+# End time: 20:29:21 on May 29,2022, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 6
+# Compile of MSSR8_Q6.sv was successful.
+vsim -gui work.MSRR8_Q6
+# vsim -gui work.MSRR8_Q6 
+# Start time: 20:30:21 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q6
+# Loading work.MSRR8_Q5
+# Loading work.multiplexer4
+# Loading work.DRlatch
+add wave -position end  sim:/MSRR8_Q6/sIn
+add wave -position end  sim:/MSRR8_Q6/clc
+add wave -position end  sim:/MSRR8_Q6/R
+add wave -position end  sim:/MSRR8_Q6/mode
+add wave -position end  sim:/MSRR8_Q6/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftrw1752".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrw1752
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/MSSR8_Q6.sv(19)
+#    Time: 21030 ns  Iteration: 0  Instance: /MSRR8_Q6
+# Break in Module MSRR8_Q6 at C:/Users/M.M/Desktop/CA4/MSSR8_Q6.sv line 19
+quit -sim
+# End time: 20:31:35 on May 29,2022, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 4
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.MSRR8_Q6
+# vsim -gui work.MSRR8_Q6 
+# Start time: 20:32:02 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q6
+# Loading work.MSRR8_Q5
+# Loading work.multiplexer4
+# Loading work.DRlatch
+add wave -position end  sim:/MSRR8_Q6/sIn
+add wave -position end  sim:/MSRR8_Q6/clc
+add wave -position end  sim:/MSRR8_Q6/R
+add wave -position end  sim:/MSRR8_Q6/mode
+add wave -position end  sim:/MSRR8_Q6/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftxkj0bd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxkj0bd
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/MSSR8_Q6.sv(19)
+#    Time: 21030 ns  Iteration: 0  Instance: /MSRR8_Q6
+# Break in Module MSRR8_Q6 at C:/Users/M.M/Desktop/CA4/MSSR8_Q6.sv line 19
+quit -sim
+# End time: 20:48:53 on May 29,2022, Elapsed time: 0:16:51
+# Errors: 0, Warnings: 4
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# 10 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.MSRR8_Q8_tb
+# vsim -gui work.MSRR8_Q8_tb 
+# Start time: 20:54:33 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q8_tb
+# Loading work.MSRR8_Q8
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+add wave -position end  sim:/MSRR8_Q8_tb/sIn
+add wave -position end  sim:/MSRR8_Q8_tb/clc
+add wave -position end  sim:/MSRR8_Q8_tb/R
+add wave -position end  sim:/MSRR8_Q8_tb/mode
+add wave -position end  sim:/MSRR8_Q8_tb/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft7j4j6b".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7j4j6b
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/MSSR8_Q8a.sv(19)
+#    Time: 21030 ns  Iteration: 0  Instance: /MSRR8_Q8_tb
+# Break in Module MSRR8_Q8_tb at C:/Users/M.M/Desktop/CA4/MSSR8_Q8a.sv line 19
+quit -sim
+# End time: 20:55:33 on May 29,2022, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 7
+vsim -gui work.DRflipflop
+# vsim -gui work.DRflipflop 
+# Start time: 20:55:52 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRflipflop
+# Loading work.Dfilpflop
+add wave -position end  sim:/DRflipflop/D
+add wave -position end  sim:/DRflipflop/R
+add wave -position end  sim:/DRflipflop/clc
+add wave -position end  sim:/DRflipflop/Q
+add wave -position end  sim:/DRflipflop/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft5i3sh3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5i3sh3
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv(14)
+#    Time: 9900 ns  Iteration: 0  Instance: /DRflipflop
+# Break in Module DRflipflop at C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv line 14
+quit -sim
+# End time: 20:56:35 on May 29,2022, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 3
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of Dflipflop.sv failed with 1 errors.
+# Compile of Dflipflop.sv was successful.
+# Compile of Dflipflop.sv was successful.
+vsim -gui work.DRlatch_tb
+# vsim -gui work.DRlatch_tb 
+# Start time: 21:02:27 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRlatch_tb
+# Loading work.DRlatch
+add wave -position end  sim:/DRlatch_tb/clc
+add wave -position end  sim:/DRlatch_tb/D
+add wave -position end  sim:/DRlatch_tb/R
+add wave -position end  sim:/DRlatch_tb/Q
+add wave -position end  sim:/DRlatch_tb/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft4w8ei9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4w8ei9
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/DRlatch_tb.sv(14)
+#    Time: 2360 ns  Iteration: 0  Instance: /DRlatch_tb
+# Break in Module DRlatch_tb at C:/Users/M.M/Desktop/CA4/DRlatch_tb.sv line 14
+quit -sim
+# End time: 21:57:32 on May 29,2022, Elapsed time: 0:55:05
+# Errors: 0, Warnings: 7
+vsim -gui work.DRflipflop
+# vsim -gui work.DRflipflop 
+# Start time: 21:57:48 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRflipflop
+# Loading work.Dfilpflop
+add wave -position end  sim:/DRflipflop/D
+add wave -position end  sim:/DRflipflop/R
+add wave -position end  sim:/DRflipflop/clc
+add wave -position end  sim:/DRflipflop/Q
+add wave -position end  sim:/DRflipflop/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft8ik5z8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8ik5z8
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv(14)
+#    Time: 9900 ns  Iteration: 0  Instance: /DRflipflop
+# Break in Module DRflipflop at C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv line 14
+quit -sim
+# End time: 21:58:16 on May 29,2022, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 3
+# Load canceled
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.DRflipflop_tb
+# vsim -gui work.DRflipflop_tb 
+# Start time: 21:59:17 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRflipflop_tb
+# Loading work.Dfilpflop
+# ** Error: (vsim-3033) Instantiation of 'Dlatch2' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /DRflipflop_tb/cut File: C:/Users/M.M/Desktop/CA4/Dflipflop.sv Line: 8
+#         Searched libraries:
+#             C:/Users/M.M/Desktop/CA4/work
+# ** Error: (vsim-3033) Instantiation of 'Dlatch2' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /DRflipflop_tb/cut File: C:/Users/M.M/Desktop/CA4/Dflipflop.sv Line: 9
+#         Searched libraries:
+#             C:/Users/M.M/Desktop/CA4/work
+# Error loading design
+# End time: 21:59:17 on May 29,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.DRflipflop_tb
+# vsim -gui work.DRflipflop_tb 
+# Start time: 22:00:23 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRflipflop_tb
+# Loading work.Dfilpflop
+# Loading work.DRlatch
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 't1'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /DRflipflop_tb/cut/t1 File: C:/Users/M.M/Desktop/CA4/Dflipflop.sv Line: 8
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/CA4/Dflipflop.sv(8): [TFMPC] - Missing connection for port 'Qb'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 't2'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /DRflipflop_tb/cut/t2 File: C:/Users/M.M/Desktop/CA4/Dflipflop.sv Line: 9
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/CA4/Dflipflop.sv(9): [TFMPC] - Missing connection for port 'Qb'.
+add wave -position end  sim:/DRflipflop_tb/D
+add wave -position end  sim:/DRflipflop_tb/R
+add wave -position end  sim:/DRflipflop_tb/clc
+add wave -position end  sim:/DRflipflop_tb/Q
+add wave -position end  sim:/DRflipflop_tb/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftxi07en".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxi07en
+# Load canceled
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv(14)
+#    Time: 9900 ns  Iteration: 0  Instance: /DRflipflop_tb
+# Break in Module DRflipflop_tb at C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv line 14
+quit -sim
+# End time: 22:02:06 on May 29,2022, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 8
+# Compile of temp.sv was successful.
+# Compile of Dflipflop.sv was successful.
+vsim -gui work.DRflipflop_tb
+# vsim -gui work.DRflipflop_tb 
+# Start time: 22:04:41 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRflipflop_tb
+# Loading work.Dfilpflop
+add wave -position end  sim:/DRflipflop_tb/D
+add wave -position end  sim:/DRflipflop_tb/R
+add wave -position end  sim:/DRflipflop_tb/clc
+add wave -position end  sim:/DRflipflop_tb/Q
+add wave -position end  sim:/DRflipflop_tb/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftjwvyr0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjwvyr0
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv(14)
+#    Time: 9900 ns  Iteration: 0  Instance: /DRflipflop_tb
+# Break in Module DRflipflop_tb at C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv line 14
+quit -sim
+# End time: 22:06:01 on May 29,2022, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 6
+vsim -gui work.MSRR8_Q8_tb
+# vsim -gui work.MSRR8_Q8_tb 
+# Start time: 22:07:54 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q8_tb
+# Loading work.MSRR8_Q8
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+add wave -position end  sim:/MSRR8_Q8_tb/sIn
+add wave -position end  sim:/MSRR8_Q8_tb/clc
+add wave -position end  sim:/MSRR8_Q8_tb/R
+add wave -position end  sim:/MSRR8_Q8_tb/mode
+add wave -position end  sim:/MSRR8_Q8_tb/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftfy1zw9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfy1zw9
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/MSSR8_Q8a.sv(19)
+#    Time: 21030 ns  Iteration: 0  Instance: /MSRR8_Q8_tb
+# Break in Module MSRR8_Q8_tb at C:/Users/M.M/Desktop/CA4/MSSR8_Q8a.sv line 19
+quit -sim
+# End time: 22:10:51 on May 29,2022, Elapsed time: 0:02:57
+# Errors: 0, Warnings: 3
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# Compile of temp.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.MSRR8_Q8_tb
+# vsim -gui work.MSRR8_Q8_tb 
+# Start time: 22:11:11 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q8_tb
+# Loading work.MSRR8_Q8
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+add wave -position end  sim:/MSRR8_Q8_tb/sIn
+add wave -position end  sim:/MSRR8_Q8_tb/clc
+add wave -position end  sim:/MSRR8_Q8_tb/R
+add wave -position end  sim:/MSRR8_Q8_tb/mode
+add wave -position end  sim:/MSRR8_Q8_tb/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftg0m980".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg0m980
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/MSSR8_Q8a.sv(21)
+#    Time: 55830 ns  Iteration: 0  Instance: /MSRR8_Q8_tb
+# Break in Module MSRR8_Q8_tb at C:/Users/M.M/Desktop/CA4/MSSR8_Q8a.sv line 21
+quit -sim
+# End time: 22:12:22 on May 29,2022, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 4
+# Compile of Q9.sv was successful.
+# Compile of Q9.sv was successful.
+# Compile of Q9_tb.sv was successful.
+vsim -gui work.Q9_tb
+# vsim -gui work.Q9_tb 
+# Start time: 22:48:37 on May 29,2022
+# Loading sv_std.std
+# Loading work.Q9_tb
+# Loading work.dff_sync_rst
+add wave -position end  sim:/Q9_tb/D
+add wave -position end  sim:/Q9_tb/R
+add wave -position end  sim:/Q9_tb/clc
+add wave -position end  sim:/Q9_tb/Q
+add wave -position end  sim:/Q9_tb/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft8eajtm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8eajtm
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/Q9_tb.sv(14)
+#    Time: 9900 ns  Iteration: 0  Instance: /Q9_tb
+# Break in Module Q9_tb at C:/Users/M.M/Desktop/CA4/Q9_tb.sv line 14
+quit -sim
+# End time: 22:49:06 on May 29,2022, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 8
+# Compile of Q10_tb.sv was successful.
+# Compile of Q10.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# Compile of temp.sv was successful.
+# Compile of Q9.sv was successful.
+# Compile of Q9_tb.sv was successful.
+# Compile of Q10_tb.sv was successful.
+# Compile of Q10.sv was successful.
+# 15 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# Compile of temp.sv was successful.
+# Compile of Q9.sv was successful.
+# Compile of Q9_tb.sv was successful.
+# Compile of Q10_tb.sv was successful.
+# Compile of Q10.sv was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.MSRR8_Q10_tb
+# vsim -gui work.MSRR8_Q10_tb 
+# Start time: 22:59:45 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q10_tb
+# Loading work.MSRR8_Q8
+# Loading work.MSRR8_Q10
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+# Loading work.dff_sync_rst
+add wave -position end  sim:/MSRR8_Q10_tb/sIn
+add wave -position end  sim:/MSRR8_Q10_tb/clc
+add wave -position end  sim:/MSRR8_Q10_tb/R
+add wave -position end  sim:/MSRR8_Q10_tb/mode
+add wave -position end  sim:/MSRR8_Q10_tb/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftg37i5s".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg37i5s
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/Q10_tb.sv(21)
+#    Time: 55830 ns  Iteration: 0  Instance: /MSRR8_Q10_tb
+# Break in Module MSRR8_Q10_tb at C:/Users/M.M/Desktop/CA4/Q10_tb.sv line 21
+quit -sim
+# End time: 23:00:01 on May 29,2022, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 10
+# Compile of Q10_tb.sv failed with 1 errors.
+vsim -gui work.MSRR8_Q10_tb
+# vsim -gui work.MSRR8_Q10_tb 
+# Start time: 23:00:48 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q10_tb
+# Loading work.MSRR8_Q8
+# Loading work.MSRR8_Q10
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+# Loading work.dff_sync_rst
+quit -sim
+# End time: 23:00:53 on May 29,2022, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 2
+# Compile of Q10_tb.sv failed with 1 errors.
+# Compile of Q10_tb.sv was successful.
+vsim -gui work.MSRR8_Q10_tb
+# vsim -gui work.MSRR8_Q10_tb 
+# Start time: 23:01:35 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q10_tb
+# Loading work.MSRR8_Q8
+# Loading work.MSRR8_Q10
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+# Loading work.dff_sync_rst
+add wave -position end  sim:/MSRR8_Q10_tb/sIn
+add wave -position end  sim:/MSRR8_Q10_tb/clc
+add wave -position end  sim:/MSRR8_Q10_tb/R
+add wave -position end  sim:/MSRR8_Q10_tb/mode
+add wave -position end  sim:/MSRR8_Q10_tb/Q_gate
+add wave -position end  sim:/MSRR8_Q10_tb/Q_assign
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft4try6w".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4try6w
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/Q10_tb.sv(21)
+#    Time: 55830 ns  Iteration: 0  Instance: /MSRR8_Q10_tb
+# Break in Module MSRR8_Q10_tb at C:/Users/M.M/Desktop/CA4/Q10_tb.sv line 21
+# Break key hit
+quit -sim
+# End time: 23:02:07 on May 29,2022, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 5
+vsim -gui work.Q9_tb
+# vsim -gui work.Q9_tb 
+# Start time: 23:02:42 on May 29,2022
+# Loading sv_std.std
+# Loading work.Q9_tb
+# Loading work.dff_sync_rst
+add wave -position end  sim:/Q9_tb/D
+add wave -position end  sim:/Q9_tb/R
+add wave -position end  sim:/Q9_tb/clc
+add wave -position end  sim:/Q9_tb/Q
+add wave -position end  sim:/Q9_tb/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft0vhk52".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0vhk52
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/Q9_tb.sv(14)
+#    Time: 9900 ns  Iteration: 0  Instance: /Q9_tb
+# Break in Module Q9_tb at C:/Users/M.M/Desktop/CA4/Q9_tb.sv line 14
+quit -sim
+# End time: 23:03:01 on May 29,2022, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 3
+# Compile of Dflipflop.sv was successful.
+# Compile of Q10.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# Compile of temp.sv was successful.
+# Compile of Q9.sv was successful.
+# Compile of Q9_tb.sv was successful.
+# Compile of Q10_tb.sv was successful.
+# Compile of Q10.sv was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.MSRR8_Q10_tb
+# vsim -gui work.MSRR8_Q10_tb 
+# Start time: 23:07:52 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q10_tb
+# Loading work.MSRR8_Q8
+# Loading work.MSRR8_Q10
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+# Loading work.dff_sync_rst
+add wave -position end  sim:/MSRR8_Q10_tb/sIn
+add wave -position end  sim:/MSRR8_Q10_tb/clc
+add wave -position end  sim:/MSRR8_Q10_tb/R
+add wave -position end  sim:/MSRR8_Q10_tb/mode
+add wave -position end  sim:/MSRR8_Q10_tb/Q_gate
+add wave -position end  sim:/MSRR8_Q10_tb/Q_assign
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft4aejcb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4aejcb
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/Q10_tb.sv(21)
+#    Time: 55830 ns  Iteration: 0  Instance: /MSRR8_Q10_tb
+# Break in Module MSRR8_Q10_tb at C:/Users/M.M/Desktop/CA4/Q10_tb.sv line 21
+quit -sim
+# End time: 23:10:15 on May 29,2022, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 5
+# Compile of MSSR8.sv was successful.
+vsim -gui work.MSRR8_Q10_tb
+# vsim -gui work.MSRR8_Q10_tb 
+# Start time: 23:11:49 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q10_tb
+# Loading work.MSRR8_Q8
+# Loading work.MSRR8_Q10
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+# Loading work.dff_sync_rst
+add wave -position end  sim:/MSRR8_Q10_tb/sIn
+add wave -position end  sim:/MSRR8_Q10_tb/clc
+add wave -position end  sim:/MSRR8_Q10_tb/R
+add wave -position end  sim:/MSRR8_Q10_tb/mode
+add wave -position end  sim:/MSRR8_Q10_tb/Q_gate
+add wave -position end  sim:/MSRR8_Q10_tb/Q_assign
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftci8cei".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftci8cei
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/Q10_tb.sv(21)
+#    Time: 55830 ns  Iteration: 0  Instance: /MSRR8_Q10_tb
+# Break in Module MSRR8_Q10_tb at C:/Users/M.M/Desktop/CA4/Q10_tb.sv line 21
+quit -sim
+# End time: 23:12:24 on May 29,2022, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 4
+vsim -gui work.MSRR8_Q6_tb
+# vsim -gui work.MSRR8_Q6_tb 
+# Start time: 23:12:35 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q6_tb
+# Loading work.MSRR8_Q5
+# Loading work.multiplexer4
+# Loading work.DRlatch
+add wave -position end  sim:/MSRR8_Q6_tb/sIn
+add wave -position end  sim:/MSRR8_Q6_tb/clc
+add wave -position end  sim:/MSRR8_Q6_tb/R
+add wave -position end  sim:/MSRR8_Q6_tb/mode
+add wave -position end  sim:/MSRR8_Q6_tb/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftf35cxv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftf35cxv
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/MSSR8_Q6.sv(19)
+#    Time: 21030 ns  Iteration: 0  Instance: /MSRR8_Q6_tb
+# Break in Module MSRR8_Q6_tb at C:/Users/M.M/Desktop/CA4/MSSR8_Q6.sv line 19
+quit -sim
+# End time: 23:13:35 on May 29,2022, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 3
+# Compile of Dflipflop.sv was successful.
+# Compile of temp.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.DRflipflop_tb
+# vsim -gui work.DRflipflop_tb 
+# Start time: 23:17:58 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRflipflop_tb
+# Loading work.Dfilpflop
+# ** Error: (vsim-3033) Instantiation of 'Dlatch2' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /DRflipflop_tb/cut File: C:/Users/M.M/Desktop/CA4/Dflipflop.sv Line: 8
+#         Searched libraries:
+#             C:/Users/M.M/Desktop/CA4/work
+# ** Error: (vsim-3033) Instantiation of 'Dlatch2' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /DRflipflop_tb/cut File: C:/Users/M.M/Desktop/CA4/Dflipflop.sv Line: 9
+#         Searched libraries:
+#             C:/Users/M.M/Desktop/CA4/work
+# Error loading design
+# End time: 23:17:58 on May 29,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# Compile of Dflipflop.sv was successful.
+vsim -gui work.DRflipflop_tb
+# vsim -gui work.DRflipflop_tb 
+# Start time: 23:18:40 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRflipflop_tb
+# Loading work.Dfilpflop
+# Loading work.DRlatch
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'first'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /DRflipflop_tb/cut/first File: C:/Users/M.M/Desktop/CA4/Dflipflop.sv Line: 8
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/CA4/Dflipflop.sv(8): [TFMPC] - Missing connection for port 'Qb'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'second'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /DRflipflop_tb/cut/second File: C:/Users/M.M/Desktop/CA4/Dflipflop.sv Line: 9
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/CA4/Dflipflop.sv(9): [TFMPC] - Missing connection for port 'Qb'.
+add wave -position end  sim:/DRflipflop_tb/D
+add wave -position end  sim:/DRflipflop_tb/R
+add wave -position end  sim:/DRflipflop_tb/clc
+add wave -position end  sim:/DRflipflop_tb/Q
+add wave -position end  sim:/DRflipflop_tb/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft93acy8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft93acy8
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv(14)
+#    Time: 9900 ns  Iteration: 0  Instance: /DRflipflop_tb
+# Break in Module DRflipflop_tb at C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv line 14
+quit -sim
+# End time: 23:18:53 on May 29,2022, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 8
+# Compile of Dflipflop.sv was successful.
+vsim -gui work.DRflipflop_tb
+# vsim -gui work.DRflipflop_tb 
+# Start time: 23:20:41 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRflipflop_tb
+# Loading work.Dfilpflop
+# Loading work.D_latch
+add wave -position end  sim:/DRflipflop_tb/D
+add wave -position end  sim:/DRflipflop_tb/R
+add wave -position end  sim:/DRflipflop_tb/clc
+add wave -position end  sim:/DRflipflop_tb/Q
+add wave -position end  sim:/DRflipflop_tb/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft5bxi5b".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5bxi5b
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv(14)
+#    Time: 9900 ns  Iteration: 0  Instance: /DRflipflop_tb
+# Break in Module DRflipflop_tb at C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv line 14
+quit -sim
+# End time: 23:23:12 on May 29,2022, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 4
+vsim -gui work.DRflipflop_tb
+# vsim -gui work.DRflipflop_tb 
+# Start time: 23:23:18 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRflipflop_tb
+# Loading work.Dfilpflop
+# Loading work.D_latch
+add wave -position end  sim:/DRflipflop_tb/D
+add wave -position end  sim:/DRflipflop_tb/R
+add wave -position end  sim:/DRflipflop_tb/clc
+add wave -position end  sim:/DRflipflop_tb/Q
+add wave -position end  sim:/DRflipflop_tb/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftmera10".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmera10
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv(14)
+#    Time: 9900 ns  Iteration: 0  Instance: /DRflipflop_tb
+# Break in Module DRflipflop_tb at C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv line 14
+quit -sim
+# End time: 23:23:38 on May 29,2022, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 3
+# Compile of Dflipflop.sv was successful.
+vsim -gui work.DRlatch_tb
+# vsim -gui work.DRlatch_tb 
+# Start time: 23:25:39 on May 29,2022
+# Loading sv_std.std
+# Loading work.DRlatch_tb
+# Loading work.DRlatch
+add wave -position end  sim:/DRlatch_tb/clc
+add wave -position end  sim:/DRlatch_tb/D
+add wave -position end  sim:/DRlatch_tb/R
+add wave -position end  sim:/DRlatch_tb/Q
+add wave -position end  sim:/DRlatch_tb/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft9gicrd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9gicrd
+run
+run -continue
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/DRlatch_tb.sv(14)
+#    Time: 2360 ns  Iteration: 0  Instance: /DRlatch_tb
+# Break in Module DRlatch_tb at C:/Users/M.M/Desktop/CA4/DRlatch_tb.sv line 14
+quit -sim
+# End time: 23:26:48 on May 29,2022, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 4
+vsim -gui work.MSRR8_Q8_tb
+# vsim -gui work.MSRR8_Q8_tb 
+# Start time: 23:26:59 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q8_tb
+# Loading work.MSRR8_Q8
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+# Loading work.D_latch
+add wave -position end  sim:/MSRR8_Q8_tb/sIn
+add wave -position end  sim:/MSRR8_Q8_tb/clc
+add wave -position end  sim:/MSRR8_Q8_tb/R
+add wave -position end  sim:/MSRR8_Q8_tb/mode
+add wave -position end  sim:/MSRR8_Q8_tb/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlfts6xkmk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts6xkmk
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/MSSR8_Q8a.sv(21)
+#    Time: 55830 ns  Iteration: 0  Instance: /MSRR8_Q8_tb
+# Break in Module MSRR8_Q8_tb at C:/Users/M.M/Desktop/CA4/MSSR8_Q8a.sv line 21
+quit -sim
+# End time: 23:27:25 on May 29,2022, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 3
+vsim -gui work.MSRR8_Q10_tb
+# vsim -gui work.MSRR8_Q10_tb 
+# Start time: 23:27:34 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q10_tb
+# Loading work.MSRR8_Q8
+# Loading work.MSRR8_Q10
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+# Loading work.D_latch
+# Loading work.dff_sync_rst
+add wave -position end  sim:/MSRR8_Q10_tb/sIn
+add wave -position end  sim:/MSRR8_Q10_tb/clc
+add wave -position end  sim:/MSRR8_Q10_tb/R
+add wave -position end  sim:/MSRR8_Q10_tb/mode
+add wave -position end  sim:/MSRR8_Q10_tb/Q_gate
+add wave -position end  sim:/MSRR8_Q10_tb/Q_assign
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlft1gmyv0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1gmyv0
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/Q10_tb.sv(21)
+#    Time: 55830 ns  Iteration: 0  Instance: /MSRR8_Q10_tb
+# Break in Module MSRR8_Q10_tb at C:/Users/M.M/Desktop/CA4/Q10_tb.sv line 21
+quit -sim
+# End time: 23:28:55 on May 29,2022, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 3
+# Compile of Q9.sv was successful.
+vsim -gui work.MSRR8_Q10_tb
+# vsim -gui work.MSRR8_Q10_tb 
+# Start time: 23:29:28 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q10_tb
+# Loading work.MSRR8_Q8
+# Loading work.MSRR8_Q10
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+# Loading work.D_latch
+# Loading work.dff_sync_rst
+add wave -position end  sim:/MSRR8_Q10_tb/sIn
+add wave -position end  sim:/MSRR8_Q10_tb/clc
+add wave -position end  sim:/MSRR8_Q10_tb/R
+add wave -position end  sim:/MSRR8_Q10_tb/mode
+add wave -position end  sim:/MSRR8_Q10_tb/Q_gate
+add wave -position end  sim:/MSRR8_Q10_tb/Q_assign
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftggrvwf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftggrvwf
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/Q10_tb.sv(21)
+#    Time: 55830 ns  Iteration: 0  Instance: /MSRR8_Q10_tb
+# Break in Module MSRR8_Q10_tb at C:/Users/M.M/Desktop/CA4/Q10_tb.sv line 21
+quit -sim
+# End time: 23:29:50 on May 29,2022, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 4
+vsim -gui work.MSRR8_Q10_tb
+# vsim -gui work.MSRR8_Q10_tb 
+# Start time: 23:31:30 on May 29,2022
+# Loading sv_std.std
+# Loading work.MSRR8_Q10_tb
+# Loading work.MSRR8_Q8
+# Loading work.MSRR8_Q10
+# Loading work.multiplexer4
+# Loading work.Dfilpflop
+# Loading work.D_latch
+# Loading work.dff_sync_rst
+add wave -position end  sim:/MSRR8_Q10_tb/sIn
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: M.M  Hostname: DESKTOP-RH6UM0M  ProcessID: 27128
+#           Attempting to use alternate WLF file "./wlftbsf6q7".
+add wave -position end  sim:/MSRR8_Q10_tb/clc
+add wave -position end  sim:/MSRR8_Q10_tb/R
+add wave -position end  sim:/MSRR8_Q10_tb/mode
+add wave -position end  sim:/MSRR8_Q10_tb/Q_gate
+add wave -position end  sim:/MSRR8_Q10_tb/Q_assign
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbsf6q7
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA4/Q10_tb.sv(21)
+#    Time: 55830 ns  Iteration: 0  Instance: /MSRR8_Q10_tb
+# Break in Module MSRR8_Q10_tb at C:/Users/M.M/Desktop/CA4/Q10_tb.sv line 21
+quit -sim
+# End time: 23:34:52 on May 29,2022, Elapsed time: 0:03:22
+# Errors: 0, Warnings: 3
+# Compile of dlatch.sv was successful.
+# Compile of dlatch_tb.sv was successful.
+# Compile of DRlatch.sv was successful.
+# Compile of DRlatch_tb.sv was successful.
+# Compile of Dflipflop.sv was successful.
+# Compile of DRflipflop_tb.sv was successful.
+# Compile of MSSR8.sv was successful.
+# Compile of MSSR8_Q6.sv was successful.
+# Compile of MSSR8_Q8.sv was successful.
+# Compile of MSSR8_Q8a.sv was successful.
+# Compile of temp.sv was successful.
+# Compile of Q9.sv was successful.
+# Compile of Q9_tb.sv was successful.
+# Compile of Q10_tb.sv was successful.
+# Compile of Q10.sv was successful.
+# 15 compiles, 0 failed with no errors.

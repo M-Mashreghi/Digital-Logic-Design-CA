@@ -1,0 +1,105 @@
+C:/Users/M.M/Desktop/CA4/MSSR8_Q8.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\MSSR8_Q8.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplexer4
+-- Compiling module MSRR8_Q8
+
+Top level modules:
+	MSRR8_Q8
+
+} {} {}} C:/Users/M.M/Desktop/CA4/MSSR8_Q8a.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\MSSR8_Q8a.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MSRR8_Q8_tb
+
+Top level modules:
+	MSRR8_Q8_tb
+
+} {} {}} C:/Users/M.M/Desktop/CA4/Q10_tb.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\Q10_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MSRR8_Q10_tb
+
+Top level modules:
+	MSRR8_Q10_tb
+
+} {} {}} C:/Users/M.M/Desktop/CA4/Q10.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\Q10.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplexer4
+-- Compiling module MSRR8_Q10
+
+Top level modules:
+	MSRR8_Q10
+
+} {} {}} C:/Users/M.M/Desktop/CA4/MSSR8.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\MSSR8.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplexer4
+-- Compiling module MSRR8_Q8
+
+Top level modules:
+	MSRR8_Q8
+
+} {} {}} C:/Users/M.M/Desktop/CA4/dlatch_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/M.M/Desktop/CA4/dlatch_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_latch_tb
+
+Top level modules:
+	D_latch_tb
+
+} {} {}} C:/Users/M.M/Desktop/CA4/temp.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\temp.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/Users/M.M/Desktop/CA4/DRlatch_tb.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\DRlatch_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DRlatch_tb
+
+Top level modules:
+	DRlatch_tb
+
+} {} {}} C:/Users/M.M/Desktop/CA4/Q9_tb.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\Q9_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Q9_tb
+
+Top level modules:
+	Q9_tb
+
+} {} {}} C:/Users/M.M/Desktop/CA4/DRflipflop_tb.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\DRflipflop_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DRflipflop_tb
+
+Top level modules:
+	DRflipflop_tb
+
+} {} {}} C:/Users/M.M/Desktop/CA4/Dflipflop.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\Dflipflop.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Dfilpflop
+
+Top level modules:
+	Dfilpflop
+
+} {} {}} C:/Users/M.M/Desktop/CA4/dlatch.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\dlatch.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_latch
+
+Top level modules:
+	D_latch
+
+} {} {}} C:/Users/M.M/Desktop/CA4/DRlatch.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\DRlatch.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DRlatch
+
+Top level modules:
+	DRlatch
+
+} {} {}} C:/Users/M.M/Desktop/CA4/Q9.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\Q9.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dff_sync_rst
+
+Top level modules:
+	dff_sync_rst
+
+} {} {}} C:/Users/M.M/Desktop/CA4/MSSR8_Q6.sv {1 {vlog -work work -sv -stats=none {C:\Users\M.M\Desktop\CA4\MSSR8_Q6.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MSRR8_Q6_tb
+
+Top level modules:
+	MSRR8_Q6_tb
+
+} {} {}}
