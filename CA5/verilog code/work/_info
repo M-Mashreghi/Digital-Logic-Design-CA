@@ -1,0 +1,463 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/M.M/Desktop/caaa
+vhard_block
+Z0 !s110 1655142109
+!i10b 1
+!s100 XF1QB9jT`Oo5Cab4Q_7_c3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZGfV73^D;>zkO4gaDLm_l2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/M.M/Desktop/ca5
+Z4 w1655141520
+Z5 8C:/Users/M.M/Desktop/ca5/partc.vo
+Z6 FC:/Users/M.M/Desktop/ca5/partc.vo
+!i122 187
+L0 1355 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1655142109.000000
+!s107 C:/Users/M.M/Desktop/ca5/partc.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/M.M/Desktop/ca5/partc.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vpartc
+R0
+!i10b 1
+!s100 9^SVV?lRc:7>96YPC6MfY2
+R1
+I>hP;l0RD4iCY4nB6a7G870
+R2
+R3
+R4
+R5
+R6
+!i122 187
+L0 32 1322
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/M.M/Desktop/ca5/partc.vo|
+R9
+!i113 1
+R10
+R11
+vQa_po
+!s110 1655114790
+!i10b 1
+!s100 gjbI_McEcEjS_o?NWW<Xc1
+R1
+ITEEMLhnoMQm0Q>m@eP@3Q1
+R2
+R3
+w1655114781
+8C:/Users/M.M/Desktop/ca5/Qa_po.vo
+FC:/Users/M.M/Desktop/ca5/Qa_po.vo
+!i122 60
+Z13 L0 32 617
+R7
+r1
+!s85 0
+31
+!s108 1655114790.000000
+!s107 C:/Users/M.M/Desktop/ca5/Qa_po.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/M.M/Desktop/ca5/Qa_po.vo|
+!i113 1
+R10
+R11
+n@qa_po
+vQa_presynth
+!s110 1655128286
+!i10b 1
+!s100 LNF4[MX0LF=ai446DPU9M2
+R1
+INcHPnO7m4YU2M9W8jW5C;3
+R2
+R3
+w1655112296
+8C:/Users/M.M/Desktop/ca5/Qa_presynth.vo
+FC:/Users/M.M/Desktop/ca5/Qa_presynth.vo
+!i122 118
+R13
+R7
+r1
+!s85 0
+31
+!s108 1655128286.000000
+!s107 C:/Users/M.M/Desktop/ca5/Qa_presynth.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/M.M/Desktop/ca5/Qa_presynth.vo|
+!i113 1
+R10
+R11
+n@qa_presynth
+vQa_presynth1
+Z14 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1655055403
+!i10b 1
+!s100 hAhlmaPfCYLM>4ohH]k`U3
+R1
+Iig?ho]gABSaodYd[^=AEE1
+R2
+S1
+R3
+w1655055322
+Z15 8C:\Users\M.M\Desktop\ca5\Qa-pre.sv
+Z16 FC:\Users\M.M\Desktop\ca5\Qa-pre.sv
+!i122 18
+L0 2 48
+R7
+r1
+!s85 0
+31
+!s108 1655055403.000000
+Z17 !s107 C:\Users\M.M\Desktop\ca5\Qa-pre.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\M.M\Desktop\ca5\Qa-pre.sv|
+!i113 1
+Z19 o-work work -sv
+R11
+n@qa_presynth1
+vQa_presynth3
+R14
+R0
+!i10b 1
+!s100 aHg[9?dV^K`6JfT8jD03@0
+R1
+IB9G<eEBPTn?8A:a6M:ajf0
+R2
+S1
+R3
+w1655128279
+R15
+R16
+!i122 181
+L0 2 44
+R7
+r1
+!s85 0
+31
+R8
+R17
+R18
+!i113 1
+R19
+R11
+n@qa_presynth3
+vQa_tb
+R14
+!s110 1655054918
+!i10b 1
+!s100 `_fVV[a:i:NHioe2kA]5C2
+R1
+I;^_[ERD3EN2Vk9gP]1MFX0
+R2
+S1
+R3
+w1655054913
+Z20 8C:\Users\M.M\Desktop\ca5\Qa-tb-navid.sv
+Z21 FC:\Users\M.M\Desktop\ca5\Qa-tb-navid.sv
+!i122 12
+Z22 L0 2 26
+R7
+r1
+!s85 0
+31
+!s108 1655054918.000000
+Z23 !s107 C:\Users\M.M\Desktop\ca5\Qa-tb-navid.sv|
+Z24 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\M.M\Desktop\ca5\Qa-tb-navid.sv|
+!i113 1
+R19
+R11
+n@qa_tb
+vQa_TB
+R14
+Z25 !s110 1655057673
+!i10b 1
+!s100 j3^dAk=_<GPNhdb@[]A=I2
+R1
+IJ3^T_L>ndG3fb:hZ6:XD30
+R2
+S1
+R3
+w1655055371
+Z26 8C:\Users\M.M\Desktop\ca5\TBa.sv
+Z27 FC:\Users\M.M\Desktop\ca5\TBa.sv
+!i122 29
+Z28 L0 2 13
+R7
+r1
+!s85 0
+31
+Z29 !s108 1655057673.000000
+Z30 !s107 C:\Users\M.M\Desktop\ca5\TBa.sv|
+Z31 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\M.M\Desktop\ca5\TBa.sv|
+!i113 1
+R19
+R11
+n@qa_@t@b
+vQa_TB3
+R14
+R0
+!i10b 1
+!s100 84]XiF?fKjLNoeThmBeJI0
+R1
+IRB]h9@YVTic93>Y1V9gN=0
+R2
+S1
+R3
+w1655127991
+R26
+R27
+!i122 180
+R22
+R7
+r1
+!s85 0
+31
+R8
+R30
+R31
+!i113 1
+R19
+R11
+n@qa_@t@b3
+vQa_tb_navid
+R14
+!s110 1655056484
+!i10b 1
+!s100 ;QT@T`Ia=o6917=A5TdO93
+R1
+IbP9RPnGi@L`W=E]mELczH2
+R2
+S1
+R3
+w1655056473
+R20
+R21
+!i122 22
+R22
+R7
+r1
+!s85 0
+31
+!s108 1655056484.000000
+R23
+R24
+!i113 1
+R19
+R11
+n@qa_tb_navid
+vQa_tb_navid1
+R14
+R25
+!i10b 1
+!s100 OCQMmen1AooncY7PgcBd>3
+R1
+ITi_djjeb]4f54;8ODF06N0
+R2
+S1
+R3
+w1655057645
+R20
+R21
+!i122 31
+L0 2 25
+R7
+r1
+!s85 0
+31
+R29
+R23
+R24
+!i113 1
+R19
+R11
+n@qa_tb_navid1
+vQa_TB_prepo
+R14
+R0
+!i10b 1
+!s100 BOAmfMOLTP?W@1]Cd`0ST0
+R1
+ISEB>f>8z^ii^QW8JohYH_0
+R2
+S1
+R3
+w1655129318
+8C:\Users\M.M\Desktop\ca5\Qa-TB-prepo.sv
+FC:\Users\M.M\Desktop\ca5\Qa-TB-prepo.sv
+!i122 182
+L0 2 31
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\M.M\Desktop\ca5\Qa-TB-prepo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\M.M\Desktop\ca5\Qa-TB-prepo.sv|
+!i113 1
+R19
+R11
+n@qa_@t@b_prepo
+vQapro
+R0
+!i10b 1
+!s100 kFbzk`6iXYUd=Zb<@mXg50
+R1
+IMLOG<T;baA_`hK31Pa?:G2
+R2
+R3
+w1655129210
+8C:/Users/M.M/Desktop/ca5/Qapro.vo
+FC:/Users/M.M/Desktop/ca5/Qapro.vo
+!i122 183
+R13
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/M.M/Desktop/ca5/Qapro.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/M.M/Desktop/ca5/Qapro.vo|
+!i113 1
+R10
+R11
+n@qapro
+vQb
+R0
+!i10b 1
+!s100 56oh:TOGfEAF7MDCEaPcX0
+R1
+Ikb5jKP>@:Z[kmjZWkmacK2
+R2
+R3
+w1655131526
+8C:/Users/M.M/Desktop/ca5/Qb_tb.vo
+FC:/Users/M.M/Desktop/ca5/Qb_tb.vo
+!i122 185
+L0 32 730
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/M.M/Desktop/ca5/Qb_tb.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/M.M/Desktop/ca5/Qb_tb.vo|
+!i113 1
+R10
+R11
+n@qb
+vQb_tb
+R14
+R0
+!i10b 1
+!s100 ^WG0nnE`b;`SV`eG29lmk3
+R1
+IaDIAdz`@QAgF^^?HF2^<U2
+R2
+S1
+R3
+w1655132707
+8C:\Users\M.M\Desktop\ca5\Qb-tb.sv
+FC:\Users\M.M\Desktop\ca5\Qb-tb.sv
+!i122 184
+L0 2 22
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\M.M\Desktop\ca5\Qb-tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\M.M\Desktop\ca5\Qb-tb.sv|
+!i113 1
+R19
+R11
+n@qb_tb
+vstart_sequence
+R14
+!s110 1655053628
+!i10b 1
+!s100 N?zYVedh@N<?X4OclOSN63
+R1
+I0hneo>bzG;zE<4Sl<XRMg1
+R2
+S1
+R3
+w1655053623
+R15
+R16
+!i122 2
+L0 2 16
+R7
+r1
+!s85 0
+31
+!s108 1655053628.000000
+R17
+R18
+!i113 1
+R19
+R11
+vstart_sequencer_T
+R14
+!s110 1655053673
+!i10b 1
+!s100 XTbmdGCPzV7dfjdiH[JVS2
+R1
+IkZ[kJ5fGoilP_51;3T`i43
+R2
+S1
+R3
+w1655053658
+R26
+R27
+!i122 3
+R28
+R7
+r1
+!s85 0
+31
+!s108 1655053673.000000
+R30
+R31
+!i113 1
+R19
+R11
+nstart_sequencer_@t
+vtbc
+R14
+R0
+!i10b 1
+!s100 2;hQHeHKPhQ0SYBE2hHec0
+R1
+I>_lPHA[Fg58Boh6ZY7[I[0
+R2
+S1
+R3
+w1655142106
+8C:\Users\M.M\Desktop\ca5\Tbc.sv
+FC:\Users\M.M\Desktop\ca5\Tbc.sv
+!i122 186
+R22
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\M.M\Desktop\ca5\Tbc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\M.M\Desktop\ca5\Tbc.sv|
+!i113 1
+R19
+R11

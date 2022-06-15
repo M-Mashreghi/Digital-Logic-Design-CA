@@ -1,0 +1,2093 @@
+# Compile of Qa-pre.sv failed with 6 errors.
+# Compile of Qa-pre.sv failed with 2 errors.
+# Compile of Qa-pre.sv failed with 1 errors.
+# Compile of Qa-pre.sv was successful.
+# Compile of TBa.sv was successful.
+# Compile of Qa-pre.sv was successful.
+# Load canceled
+# Compile of TBa.sv was successful.
+vsim -gui work.Qa_TB
+# vsim -gui work.Qa_TB 
+# Start time: 21:38:34 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_TB
+# Loading work.Qa_presynth
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'CUT'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'SerIn'. The port definition is at: C:/Users/M.M/Desktop/ca5/Qa-pre.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/ca5/TBa.sv(6): [TFMPC] - Missing connection for port 'rst'.
+add wave -position end  sim:/Qa_TB/clk
+add wave -position end  sim:/Qa_TB/c_out2
+add wave -position end  sim:/Qa_TB/en2
+add wave -position end  sim:/Qa_TB/i0
+add wave -position end  sim:/Qa_TB/SerIn
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(12)
+#    Time: 470 ns  Iteration: 0  Instance: /Qa_TB
+# Break in Module Qa_TB at C:/Users/M.M/Desktop/ca5/TBa.sv line 12
+quit -sim
+# End time: 21:40:20 on Jun 12,2022, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 19
+# Compile of TBa.sv was successful.
+vsim -gui work.Qa_TB
+# vsim -gui work.Qa_TB 
+# Start time: 21:40:48 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_TB
+# Loading work.Qa_presynth
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'CUT'.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'SerIn'. The port definition is at: C:/Users/M.M/Desktop/ca5/Qa-pre.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/ca5/TBa.sv(6): [TFMPC] - Missing connection for port 'rst'.
+add wave -position end  sim:/Qa_TB/clk
+add wave -position end  sim:/Qa_TB/c_out2
+add wave -position end  sim:/Qa_TB/en2
+add wave -position end  sim:/Qa_TB/i0
+add wave -position end  sim:/Qa_TB/SerIn
+# Load canceled
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(12)
+#    Time: 470 ns  Iteration: 0  Instance: /Qa_TB
+# Break in Module Qa_TB at C:/Users/M.M/Desktop/ca5/TBa.sv line 12
+# Break key hit
+quit -sim
+# End time: 21:42:35 on Jun 12,2022, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 5
+# Compile of TBa.sv was successful.
+# Compile of Qa-pre.sv failed with 2 errors.
+# Compile of Qa-pre.sv was successful.
+vsim -gui work.Qa_TB
+# vsim -gui work.Qa_TB 
+# Start time: 21:43:42 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_TB
+# Loading work.Qa_presynth
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'SerIn'. The port definition is at: C:/Users/M.M/Desktop/ca5/Qa-pre.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+add wave -position end  sim:/Qa_TB/clk
+add wave -position end  sim:/Qa_TB/c_out2
+add wave -position end  sim:/Qa_TB/en2
+add wave -position end  sim:/Qa_TB/i0
+add wave -position end  sim:/Qa_TB/rst
+add wave -position end  sim:/Qa_TB/SerIn
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(12)
+#    Time: 470 ns  Iteration: 0  Instance: /Qa_TB
+# Break in Module Qa_TB at C:/Users/M.M/Desktop/ca5/TBa.sv line 12
+quit -sim
+# End time: 21:45:07 on Jun 12,2022, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 5
+# Compile of TBa.sv was successful.
+vsim -gui work.Qa_TB
+# vsim -gui work.Qa_TB 
+# Start time: 21:45:24 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_TB
+# Loading work.Qa_presynth
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'SerIn'. The port definition is at: C:/Users/M.M/Desktop/ca5/Qa-pre.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+add wave -position end  sim:/Qa_TB/clk
+add wave -position end  sim:/Qa_TB/c_out2
+add wave -position end  sim:/Qa_TB/en2
+add wave -position end  sim:/Qa_TB/i0
+add wave -position end  sim:/Qa_TB/rst
+add wave -position end  sim:/Qa_TB/SerIn
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(12)
+#    Time: 470 ns  Iteration: 0  Instance: /Qa_TB
+# Break in Module Qa_TB at C:/Users/M.M/Desktop/ca5/TBa.sv line 12
+quit -sim
+# End time: 21:56:26 on Jun 12,2022, Elapsed time: 0:11:02
+# Errors: 0, Warnings: 4
+# Compile of Qa-tb-navid.sv was successful.
+# Load canceled
+# Load canceled
+# Compile of Qa-navid.sv was successful.
+# Compile of Qa-tb-navid.sv was successful.
+# Compile of Qa-tb-navid.sv was successful.
+vsim -gui work.Qa_tb_navid
+# vsim -gui work.Qa_tb_navid 
+# Start time: 21:59:03 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_tb_navid
+# Loading work.Qa_presynth
+add wave -position end  sim:/Qa_tb_navid/seroutvalid
+add wave -position end  sim:/Qa_tb_navid/i0
+add wave -position end  sim:/Qa_tb_navid/cen
+add wave -position end  sim:/Qa_tb_navid/load
+add wave -position end  sim:/Qa_tb_navid/j
+add wave -position end  sim:/Qa_tb_navid/transmitted
+add wave -position end  sim:/Qa_tb_navid/clk
+add wave -position end  sim:/Qa_tb_navid/rst
+add wave -position end  sim:/Qa_tb_navid/i
+add wave -position end  sim:/Qa_tb_navid/seq
+run
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-tb-navid.sv(25)
+#    Time: 3200 ns  Iteration: 0  Instance: /Qa_tb_navid
+# Break in Module Qa_tb_navid at C:/Users/M.M/Desktop/ca5/Qa-tb-navid.sv line 25
+quit -sim
+# End time: 22:02:11 on Jun 12,2022, Elapsed time: 0:03:08
+# Errors: 0, Warnings: 7
+vsim -gui work.Qa_TB
+# vsim -gui work.Qa_TB 
+# Start time: 22:02:19 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_TB
+# Loading work.Qa_presynth
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'CUT'.  Expected 8, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+# ** Error: (vsim-3063) Port 'SerIn' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+# ** Error: (vsim-3063) Port 'c_out2' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+# ** Error: (vsim-3063) Port 'en2' not found in the connected module (5th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/ca5/TBa.sv(6): [TFMPC] - Missing connection for port 'seroutvalid'.
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/ca5/TBa.sv(6): [TFMPC] - Missing connection for port 'cen'.
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/ca5/TBa.sv(6): [TFMPC] - Missing connection for port 'load'.
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/ca5/TBa.sv(6): [TFMPC] - Missing connection for port 'j'.
+# ** Warning: (vsim-3722) C:/Users/M.M/Desktop/ca5/TBa.sv(6): [TFMPC] - Missing connection for port 'transmitted'.
+# Error loading design
+# End time: 22:02:19 on Jun 12,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 7
+# Compile of TBa.sv was successful.
+# Compile of Qa-pre.sv failed with 3 errors.
+# Compile of Qa-pre.sv failed with 1 errors.
+# Compile of Qa-pre.sv was successful.
+# Compile of TBa.sv was successful.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-tb-navid.sv was successful.
+# Compile of Qa-navid.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.Qa_TB
+# vsim -gui work.Qa_TB 
+# Start time: 22:06:49 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_TB
+# Loading work.Qa_presynth1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'SerIn'. The port definition is at: C:/Users/M.M/Desktop/ca5/Qa-pre.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB/CUT File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 6
+add wave -position end  sim:/Qa_TB/clk
+add wave -position end  sim:/Qa_TB/c_out2
+add wave -position end  sim:/Qa_TB/en2
+add wave -position end  sim:/Qa_TB/i0
+add wave -position end  sim:/Qa_TB/rst
+add wave -position end  sim:/Qa_TB/SerIn
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(12)
+#    Time: 470 ns  Iteration: 0  Instance: /Qa_TB
+# Break in Module Qa_TB at C:/Users/M.M/Desktop/ca5/TBa.sv line 12
+quit -sim
+# End time: 22:18:54 on Jun 12,2022, Elapsed time: 0:12:05
+# Errors: 0, Warnings: 11
+# Compile of TBa.sv was successful.
+# Compile of Qa-pre.sv failed with 1 errors.
+# Compile of Qa-tb-navid.sv was successful.
+# Compile of Qa-navid.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of Qa-pre.sv was successful.
+# Load canceled
+# Compile of TBa.sv was successful.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-tb-navid.sv was successful.
+# Compile of Qa-navid.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.Qa_tb_navid1
+# vsim -gui work.Qa_tb_navid1 
+# Start time: 22:26:44 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_tb_navid1
+# Loading work.Qa_presynth3
+add wave -position end  sim:/Qa_tb_navid1/seroutvalid
+add wave -position end  sim:/Qa_tb_navid1/i0
+add wave -position end  sim:/Qa_tb_navid1/cen
+add wave -position end  sim:/Qa_tb_navid1/load
+add wave -position end  sim:/Qa_tb_navid1/j
+add wave -position end  sim:/Qa_tb_navid1/transmitted
+add wave -position end  sim:/Qa_tb_navid1/clk
+add wave -position end  sim:/Qa_tb_navid1/rst
+add wave -position end  sim:/Qa_tb_navid1/i
+add wave -position end  sim:/Qa_tb_navid1/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-tb-navid.sv(25)
+#    Time: 3200 ns  Iteration: 0  Instance: /Qa_tb_navid1
+# Break in Module Qa_tb_navid1 at C:/Users/M.M/Desktop/ca5/Qa-tb-navid.sv line 25
+quit -sim
+# End time: 22:27:04 on Jun 12,2022, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 4
+# Compile of TBa.sv was successful.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-tb-navid.sv was successful.
+# Compile of Qa-navid.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.Qa_tb_navid1
+# vsim -gui work.Qa_tb_navid1 
+# Start time: 22:44:40 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_tb_navid1
+# Loading work.Qa_presynth3
+add wave -position end  sim:/Qa_tb_navid1/seroutvalid
+add wave -position end  sim:/Qa_tb_navid1/i0
+add wave -position end  sim:/Qa_tb_navid1/c_en
+add wave -position end  sim:/Qa_tb_navid1/load
+add wave -position end  sim:/Qa_tb_navid1/serIn
+add wave -position end  sim:/Qa_tb_navid1/transmitted
+add wave -position end  sim:/Qa_tb_navid1/clk
+add wave -position end  sim:/Qa_tb_navid1/rst
+add wave -position end  sim:/Qa_tb_navid1/i
+add wave -position end  sim:/Qa_tb_navid1/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-tb-navid.sv(24)
+#    Time: 3200 ns  Iteration: 0  Instance: /Qa_tb_navid1
+# Break in Module Qa_tb_navid1 at C:/Users/M.M/Desktop/ca5/Qa-tb-navid.sv line 24
+quit -sim
+# End time: 22:45:19 on Jun 12,2022, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 2
+vsim -gui work.Qa_tb_navid1
+# vsim -gui work.Qa_tb_navid1 
+# Start time: 22:45:43 on Jun 12,2022
+# Loading sv_std.std
+# Loading work.Qa_tb_navid1
+# Loading work.Qa_presynth3
+add wave -position end  sim:/Qa_tb_navid1/seroutvalid
+add wave -position end  sim:/Qa_tb_navid1/i0
+add wave -position end  sim:/Qa_tb_navid1/c_en
+add wave -position end  sim:/Qa_tb_navid1/load
+add wave -position end  sim:/Qa_tb_navid1/serIn
+add wave -position end  sim:/Qa_tb_navid1/transmitted
+add wave -position end  sim:/Qa_tb_navid1/clk
+add wave -position end  sim:/Qa_tb_navid1/rst
+add wave -position end  sim:/Qa_tb_navid1/i
+add wave -position end  sim:/Qa_tb_navid1/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-tb-navid.sv(24)
+#    Time: 3200 ns  Iteration: 0  Instance: /Qa_tb_navid1
+# Break in Module Qa_tb_navid1 at C:/Users/M.M/Desktop/ca5/Qa-tb-navid.sv line 24
+quit -sim
+# End time: 22:46:19 on Jun 12,2022, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 1
+# Load canceled
+# Compile of Qa-pre.sv was successful.
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Load canceled
+# Compile of Qa-pre.sv failed with 2 errors.
+# Compile of Qa-pre.sv was successful.
+vsim -gui work.Qa_TB3 -L cycloneiv_ver -L altera_ver -L cycloneive_ver
+# vsim -gui work.Qa_TB3 -L cycloneiv_ver -L altera_ver -L cycloneive_ver 
+# Start time: 11:45:49 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth
+add wave -position end  sim:/Qa_TB3/seroutvalid
+add wave -position end  sim:/Qa_TB3/i0
+add wave -position end  sim:/Qa_TB3/c_en
+add wave -position end  sim:/Qa_TB3/load
+add wave -position end  sim:/Qa_TB3/serIn
+add wave -position end  sim:/Qa_TB3/transmitted
+add wave -position end  sim:/Qa_TB3/clk
+add wave -position end  sim:/Qa_TB3/rst
+add wave -position end  sim:/Qa_TB3/i
+add wave -position end  sim:/Qa_TB3/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(21)
+#    Time: 1170 ns  Iteration: 0  Instance: /Qa_TB3
+# Break in Module Qa_TB3 at C:/Users/M.M/Desktop/ca5/TBa.sv line 21
+quit -sim
+# End time: 11:46:37 on Jun 13,2022, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 10
+# Compile of Qa-pre.sv was successful.
+# Compile of TBa.sv was successful with warnings.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3 
+# Start time: 11:47:33 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth
+add wave -position end  sim:/Qa_TB3/seroutvalid
+add wave -position end  sim:/Qa_TB3/i0
+add wave -position end  sim:/Qa_TB3/c_en
+add wave -position end  sim:/Qa_TB3/load
+add wave -position end  sim:/Qa_TB3/serIn
+add wave -position end  sim:/Qa_TB3/transmitted
+add wave -position end  sim:/Qa_TB3/clk
+add wave -position end  sim:/Qa_TB3/rst
+add wave -position end  sim:/Qa_TB3/i
+add wave -position end  sim:/Qa_TB3/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(21)
+#    Time: 1210 ns  Iteration: 0  Instance: /Qa_TB3
+# Break in Module Qa_TB3 at C:/Users/M.M/Desktop/ca5/TBa.sv line 21
+quit -sim
+# End time: 11:49:03 on Jun 13,2022, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 3
+# Compile of TBa.sv failed with 3 errors.
+# Compile of Qa-pre.sv was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of TBa.sv failed with 3 errors.
+# Compile of Qa-pre.sv was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of TBa.sv was successful with warnings.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3 
+# Start time: 12:41:07 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth
+add wave -position end  sim:/Qa_TB3/seroutvalid
+add wave -position end  sim:/Qa_TB3/i0
+add wave -position end  sim:/Qa_TB3/c_en
+add wave -position end  sim:/Qa_TB3/load
+add wave -position end  sim:/Qa_TB3/serIn
+add wave -position end  sim:/Qa_TB3/transmitted
+add wave -position end  sim:/Qa_TB3/clk
+add wave -position end  sim:/Qa_TB3/rst
+add wave -position end  sim:/Qa_TB3/seq
+add wave -position end  sim:/Qa_TB3/k
+# Load canceled
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(25)
+#    Time: 1210 ns  Iteration: 0  Instance: /Qa_TB3
+# Break in Module Qa_TB3 at C:/Users/M.M/Desktop/ca5/TBa.sv line 25
+quit -sim
+# End time: 12:42:20 on Jun 13,2022, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 5
+# Compile of Qa_presynth.vo was successful.
+# Compile of Qa_presynth.vo was successful.
+# Compile of Qa-TB-prepo.sv was successful with warnings.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo 
+# Start time: 13:33:11 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.Qa_po
+# Loading altera_ver.PRIM_GDFF_LOW
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 9310 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 13:36:21 on Jun 13,2022, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 6
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" 
+# Start time: 13:40:21 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.Qa_po
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 9310 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 13:48:33 on Jun 13,2022, Elapsed time: 0:08:12
+# Errors: 0, Warnings: 1
+# Compile of Qa-TB-prepo.sv was successful with warnings.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 13:49:22 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 9310 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 13:49:50 on Jun 13,2022, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 2
+# Load canceled
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo -sdftyp /Qa-po=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" -sdftyp "/Qa-po=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 13:52:10 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo(0): Failed to find INSTANCE '/Qa-po'.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo(0): Failed to find INSTANCE '/Qa-po'.
+# Error loading design
+# End time: 13:52:10 on Jun 13,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 13:52:34 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 9310 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 13:53:22 on Jun 13,2022, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 1
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:13:25 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 9310 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 14:15:20 on Jun 13,2022, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 1
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:16:47 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+quit -sim
+# End time: 14:17:05 on Jun 13,2022, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# Compile of Qa-TB-prepo.sv was successful with warnings.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:17:22 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+# Load canceled
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 12110 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 14:19:41 on Jun 13,2022, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 2
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:21:28 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 12110 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 14:23:39 on Jun 13,2022, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 1
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB3
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB3 
+# Start time: 14:23:45 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo(0): Failed to find INSTANCE '/cut2'.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Fatal: SDF files require Intel FPGA Edition primitive library
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB3 File: C:/Users/M.M/Desktop/ca5/TBa.sv
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 14:23:46 on Jun 13,2022, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3 
+# Start time: 14:24:41 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth
+add wave -position end  sim:/Qa_TB3/seroutvalid
+add wave -position end  sim:/Qa_TB3/i0
+add wave -position end  sim:/Qa_TB3/c_en
+add wave -position end  sim:/Qa_TB3/load
+add wave -position end  sim:/Qa_TB3/serIn
+add wave -position end  sim:/Qa_TB3/transmitted
+add wave -position end  sim:/Qa_TB3/clk
+add wave -position end  sim:/Qa_TB3/rst
+add wave -position end  sim:/Qa_TB3/seq
+add wave -position end  sim:/Qa_TB3/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(25)
+#    Time: 1210 ns  Iteration: 0  Instance: /Qa_TB3
+# Break in Module Qa_TB3 at C:/Users/M.M/Desktop/ca5/TBa.sv line 25
+quit -sim
+# End time: 14:25:14 on Jun 13,2022, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" 
+# Start time: 14:26:16 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 18910 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 14:29:05 on Jun 13,2022, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 1
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:30:27 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 18910 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 14:31:15 on Jun 13,2022, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 1
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:31:53 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+# Load canceled
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(26)
+#    Time: 18910 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 26
+quit -sim
+# End time: 14:32:24 on Jun 13,2022, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 1
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo 
+# Start time: 14:32:49 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(25)
+#    Time: 18910 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 25
+quit -sim
+# End time: 14:33:53 on Jun 13,2022, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_po.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo 
+# Start time: 14:37:53 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# ** Error (suppressible): (vsim-SDF-3894) Qa_presynth_v.sdo: Compiled SDF file was not found.
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Error: (vsim-7) Failed to open SDF file "Qa_presynth_v.sdo" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-SDF-3445) Failed to parse SDF file "Qa_presynth_v.sdo".
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+# Error loading design
+# End time: 14:37:53 on Jun 13,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 4
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_po.sdo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_po.sdo" 
+# Start time: 14:38:33 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# ** Error (suppressible): (vsim-SDF-3894) Qa_presynth_v.sdo: Compiled SDF file was not found.
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_po.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_po.sdo
+# ** Error: (vsim-7) Failed to open SDF file "Qa_presynth_v.sdo" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-SDF-3445) Failed to parse SDF file "Qa_presynth_v.sdo".
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+# Error loading design
+# End time: 14:38:34 on Jun 13,2022, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:42:25 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qa_po
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading timing data from Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(25)
+#    Time: 18910 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 25
+quit -sim
+# End time: 14:43:16 on Jun 13,2022, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 5
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:44:27 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading timing data from Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(25)
+#    Time: 18910 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 25
+quit -sim
+# End time: 14:46:33 on Jun 13,2022, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:47:07 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading timing data from Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/seq
+add wave -position end  sim:/Qa_TB_prepo/k
+# Load canceled
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(25)
+#    Time: 18910 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 25
+quit -sim
+# End time: 14:48:50 on Jun 13,2022, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:49:04 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading timing data from Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/i
+add wave -position end  sim:/Qa_TB_prepo/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(28)
+#    Time: 3200 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 28
+quit -sim
+# End time: 14:55:45 on Jun 13,2022, Elapsed time: 0:06:41
+# Errors: 0, Warnings: 2
+# Load canceled
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 14:56:27 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading timing data from Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/i
+add wave -position end  sim:/Qa_TB_prepo/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(28)
+#    Time: 4400 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 28
+# Break key hit
+quit -sim
+# End time: 14:57:33 on Jun 13,2022, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 15:00:00 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading timing data from Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/i
+add wave -position end  sim:/Qa_TB_prepo/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(28)
+#    Time: 3700 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 28
+# Break key hit
+quit -sim
+# End time: 15:00:29 on Jun 13,2022, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 15:01:06 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading timing data from Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/i
+add wave -position end  sim:/Qa_TB_prepo/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(28)
+#    Time: 3200 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 28
+quit -sim
+# End time: 15:01:28 on Jun 13,2022, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 2
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 15:01:49 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading timing data from Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/i
+add wave -position end  sim:/Qa_TB_prepo/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(28)
+#    Time: 3200 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 28
+quit -sim
+# End time: 15:02:15 on Jun 13,2022, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 1
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB_prepo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB_prepo 
+# Start time: 15:02:37 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qa_presynth
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading instances from Qa_presynth_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# Loading timing data from Qa_presynth_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/c_en1
+add wave -position end  sim:/Qa_TB_prepo/load1
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/c_en2
+add wave -position end  sim:/Qa_TB_prepo/load2
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/i
+add wave -position end  sim:/Qa_TB_prepo/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(28)
+#    Time: 3400 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 28
+quit -sim
+# End time: 15:03:03 on Jun 13,2022, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv failed with 3 errors.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv failed with 1 errors.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB3
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB3 
+# Start time: 18:11:12 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth3
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) Qa_presynth_v.sdo(0): Failed to find INSTANCE '/cut2'.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Error (suppressible): (vsim-3389) Port 'c_en' not found in the connected module (7th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB3/cut1 File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 8
+# ** Error (suppressible): (vsim-3389) Port 'load' not found in the connected module (8th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB3/cut1 File: C:/Users/M.M/Desktop/ca5/TBa.sv Line: 8
+# Error loading design
+# End time: 18:11:13 on Jun 13,2022, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 4
+# Compile of TBa.sv was successful with warnings.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo work.Qa_TB3
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo" work.Qa_TB3 
+# Start time: 18:12:39 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth3
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qa_presynth_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) Qa_presynth_v.sdo(0): Failed to find INSTANCE '/cut2'.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Fatal: SDF files require Intel FPGA Edition primitive library
+#    Time: 0 ns  Iteration: 0  Instance: /Qa_TB3 File: C:/Users/M.M/Desktop/ca5/TBa.sv
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:12:39 on Jun 13,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3 
+# Start time: 18:13:04 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth3
+add wave -position end  sim:/Qa_TB3/seroutvalid
+add wave -position end  sim:/Qa_TB3/i0
+add wave -position end  sim:/Qa_TB3/serIn
+add wave -position end  sim:/Qa_TB3/transmitted
+add wave -position end  sim:/Qa_TB3/clk
+add wave -position end  sim:/Qa_TB3/rst
+add wave -position end  sim:/Qa_TB3/seq
+add wave -position end  sim:/Qa_TB3/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(25)
+#    Time: 1210 ns  Iteration: 0  Instance: /Qa_TB3
+# Break in Module Qa_TB3 at C:/Users/M.M/Desktop/ca5/TBa.sv line 25
+quit -sim
+# End time: 18:14:54 on Jun 13,2022, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 1
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3 
+# Start time: 18:15:39 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth3
+add wave -position end  sim:/Qa_TB3/seroutvalid
+add wave -position end  sim:/Qa_TB3/i0
+add wave -position end  sim:/Qa_TB3/serIn
+add wave -position end  sim:/Qa_TB3/transmitted
+add wave -position end  sim:/Qa_TB3/clk
+add wave -position end  sim:/Qa_TB3/rst
+add wave -position end  sim:/Qa_TB3/seq
+add wave -position end  sim:/Qa_TB3/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(25)
+#    Time: 1210 ns  Iteration: 0  Instance: /Qa_TB3
+# Break in Module Qa_TB3 at C:/Users/M.M/Desktop/ca5/TBa.sv line 25
+quit -sim
+# End time: 18:16:40 on Jun 13,2022, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB3 
+# Start time: 18:16:49 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB3
+# Loading work.Qa_presynth3
+add wave -position end  sim:/Qa_TB3/seroutvalid
+add wave -position end  sim:/Qa_TB3/i0
+add wave -position end  sim:/Qa_TB3/serIn
+add wave -position end  sim:/Qa_TB3/transmitted
+add wave -position end  sim:/Qa_TB3/clk
+add wave -position end  sim:/Qa_TB3/rst
+add wave -position end  sim:/Qa_TB3/seq
+add wave -position end  sim:/Qa_TB3/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/TBa.sv(25)
+#    Time: 1210 ns  Iteration: 0  Instance: /Qa_TB3
+# Break in Module Qa_TB3 at C:/Users/M.M/Desktop/ca5/TBa.sv line 25
+quit -sim
+# End time: 18:19:55 on Jun 13,2022, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qa_presynth.vo was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo -sdftyp /cut2=C:/Users/M.M/Desktop/ca5/Qapro_v.sdo
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver work.Qa_TB_prepo -sdftyp "/cut2=C:/Users/M.M/Desktop/ca5/Qapro_v.sdo" 
+# Start time: 18:39:11 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qa_TB_prepo
+# Loading work.Qa_presynth3
+# Loading work.Qapro
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/M.M/Desktop/ca5/Qapro_v.sdo
+# Loading instances from Qapro_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Qapro_v.sdo
+# Loading timing data from Qapro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qa_TB_prepo File: C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid1
+add wave -position end  sim:/Qa_TB_prepo/i01
+add wave -position end  sim:/Qa_TB_prepo/seroutvalid2
+add wave -position end  sim:/Qa_TB_prepo/i02
+add wave -position end  sim:/Qa_TB_prepo/serIn
+add wave -position end  sim:/Qa_TB_prepo/transmitted
+add wave -position end  sim:/Qa_TB_prepo/clk
+add wave -position end  sim:/Qa_TB_prepo/rst
+add wave -position end  sim:/Qa_TB_prepo/i
+add wave -position end  sim:/Qa_TB_prepo/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv(28)
+#    Time: 3400 ns  Iteration: 0  Instance: /Qa_TB_prepo
+# Break in Module Qa_TB_prepo at C:/Users/M.M/Desktop/ca5/Qa-TB-prepo.sv line 28
+quit -sim
+# End time: 19:10:08 on Jun 13,2022, Elapsed time: 0:30:57
+# Errors: 0, Warnings: 6
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# Compile of Qb-tb.sv was successful.
+# Compile of Qb_tb.vo was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of Qb-tb.sv was successful.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:13:57 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# ** Warning: (vsim-3035) Instantiation depth of '/Qb_tb/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# ** Error: (vsim-3036) Instantiation depth of '/Qb_tb/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut' is 75. Assuming recursive instantiation.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut/cut File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+# Error loading design
+# End time: 19:13:57 on Jun 13,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# Compile of Qb-tb.sv was successful.
+# Compile of Qb_tb.vo was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:15:48 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+add wave -position end  sim:/Qb_tb/transmitted
+add wave -position end  sim:/Qb_tb/rst
+add wave -position end  sim:/Qb_tb/clk
+add wave -position end  sim:/Qb_tb/cen
+add wave -position end  sim:/Qb_tb/init
+add wave -position end  sim:/Qb_tb/count
+add wave -position end  sim:/Qb_tb/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qb-tb.sv(21)
+#    Time: 41100 ns  Iteration: 0  Instance: /Qb_tb
+# Break in Module Qb_tb at C:/Users/M.M/Desktop/ca5/Qb-tb.sv line 21
+quit -sim
+# End time: 19:19:40 on Jun 13,2022, Elapsed time: 0:03:52
+# Errors: 0, Warnings: 2
+# Compile of Qb-tb.sv was successful.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:20:43 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+add wave -position end  sim:/Qb_tb/transmitted
+add wave -position end  sim:/Qb_tb/rst
+add wave -position end  sim:/Qb_tb/clk
+add wave -position end  sim:/Qb_tb/cen
+add wave -position end  sim:/Qb_tb/init
+add wave -position end  sim:/Qb_tb/count
+add wave -position end  sim:/Qb_tb/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qb-tb.sv(21)
+#    Time: 20540 ns  Iteration: 0  Instance: /Qb_tb
+# Break in Module Qb_tb at C:/Users/M.M/Desktop/ca5/Qb-tb.sv line 21
+quit -sim
+# End time: 19:22:36 on Jun 13,2022, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# Compile of Qb-tb.sv was successful.
+# Compile of Qb_tb.vo was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:23:29 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+add wave -position end  sim:/Qb_tb/transmitted
+add wave -position end  sim:/Qb_tb/rst
+add wave -position end  sim:/Qb_tb/clk
+add wave -position end  sim:/Qb_tb/cen
+add wave -position end  sim:/Qb_tb/init
+add wave -position end  sim:/Qb_tb/count
+add wave -position end  sim:/Qb_tb/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qb-tb.sv(21)
+#    Time: 41100 ns  Iteration: 0  Instance: /Qb_tb
+# Break in Module Qb_tb at C:/Users/M.M/Desktop/ca5/Qb-tb.sv line 21
+quit -sim
+# End time: 19:25:30 on Jun 13,2022, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 2
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:25:45 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+quit -sim
+# End time: 19:25:49 on Jun 13,2022, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# Compile of Qb-tb.sv was successful.
+# Compile of Qb_tb.vo was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:26:02 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'q'. The port definition is at: C:/Users/M.M/Desktop/ca5/Qb_tb.vo(38).
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb/cut File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv Line: 12
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+add wave -position end  sim:/Qb_tb/transmitted
+add wave -position end  sim:/Qb_tb/rst
+add wave -position end  sim:/Qb_tb/clk
+add wave -position end  sim:/Qb_tb/cen
+add wave -position end  sim:/Qb_tb/init
+add wave -position end  sim:/Qb_tb/count
+add wave -position end  sim:/Qb_tb/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qb-tb.sv(21)
+#    Time: 41100 ns  Iteration: 0  Instance: /Qb_tb
+# Break in Module Qb_tb at C:/Users/M.M/Desktop/ca5/Qb-tb.sv line 21
+quit -sim
+# End time: 19:26:28 on Jun 13,2022, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 3
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:27:37 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'q'. The port definition is at: C:/Users/M.M/Desktop/ca5/Qb_tb.vo(38).
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb/cut File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv Line: 12
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+add wave -position end  sim:/Qb_tb/transmitted
+add wave -position end  sim:/Qb_tb/rst
+add wave -position end  sim:/Qb_tb/clk
+add wave -position end  sim:/Qb_tb/cen
+add wave -position end  sim:/Qb_tb/init
+add wave -position end  sim:/Qb_tb/count
+add wave -position end  sim:/Qb_tb/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qb-tb.sv(21)
+#    Time: 41100 ns  Iteration: 0  Instance: /Qb_tb
+# Break in Module Qb_tb at C:/Users/M.M/Desktop/ca5/Qb-tb.sv line 21
+quit -sim
+# End time: 19:27:52 on Jun 13,2022, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# Compile of Qb-tb.sv was successful.
+# Compile of Qb_tb.vo was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:28:13 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qb-tb.sv(21)
+#    Time: 41260 ns  Iteration: 0  Instance: /Qb_tb
+# Break in Module Qb_tb at C:/Users/M.M/Desktop/ca5/Qb-tb.sv line 21
+add wave -position end  sim:/Qb_tb/transmitted
+add wave -position end  sim:/Qb_tb/rst
+add wave -position end  sim:/Qb_tb/clk
+add wave -position end  sim:/Qb_tb/cen
+add wave -position end  sim:/Qb_tb/init
+add wave -position end  sim:/Qb_tb/count
+add wave -position end  sim:/Qb_tb/k
+run -all
+# Break key hit
+# Break in Module cycloneive_lcell_comb at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 4251
+# Error opening C:/Users/M.M/Desktop/ca5/altera/verilog/src/cycloneive_atoms.v
+# Path name 'C:/Users/M.M/Desktop/ca5/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+quit -sim
+# End time: 19:29:35 on Jun 13,2022, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 2
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# Compile of Qb-tb.sv was successful.
+# Compile of Qb_tb.vo was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:30:42 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+add wave -position end  sim:/Qb_tb/transmitted
+add wave -position end  sim:/Qb_tb/rst
+add wave -position end  sim:/Qb_tb/clk
+add wave -position end  sim:/Qb_tb/cen
+add wave -position end  sim:/Qb_tb/init
+add wave -position end  sim:/Qb_tb/count
+add wave -position end  sim:/Qb_tb/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qb-tb.sv(21)
+#    Time: 41100 ns  Iteration: 0  Instance: /Qb_tb
+# Break in Module Qb_tb at C:/Users/M.M/Desktop/ca5/Qb-tb.sv line 21
+quit -sim
+# End time: 19:34:09 on Jun 13,2022, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 3
+# Compile of Qb-tb.sv was successful.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:34:28 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+add wave -position end  sim:/Qb_tb/transmitted
+add wave -position end  sim:/Qb_tb/rst
+add wave -position end  sim:/Qb_tb/clk
+add wave -position end  sim:/Qb_tb/cen
+add wave -position end  sim:/Qb_tb/init
+add wave -position end  sim:/Qb_tb/count
+add wave -position end  sim:/Qb_tb/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qb-tb.sv(21)
+#    Time: 41100 ns  Iteration: 0  Instance: /Qb_tb
+# Break in Module Qb_tb at C:/Users/M.M/Desktop/ca5/Qb-tb.sv line 21
+quit -sim
+# End time: 19:35:02 on Jun 13,2022, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# Compile of Qb-tb.sv was successful.
+# Compile of Qb_tb.vo was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.Qb_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.Qb_tb 
+# Start time: 19:35:20 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.Qb_tb
+# Loading work.Qb
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading instances from Part_B_v5_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# Loading timing data from Part_B_v5_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /Qb_tb File: C:/Users/M.M/Desktop/ca5/Qb-tb.sv
+add wave -position end  sim:/Qb_tb/transmitted
+add wave -position end  sim:/Qb_tb/rst
+add wave -position end  sim:/Qb_tb/clk
+add wave -position end  sim:/Qb_tb/cen
+add wave -position end  sim:/Qb_tb/init
+add wave -position end  sim:/Qb_tb/count
+add wave -position end  sim:/Qb_tb/k
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Qb-tb.sv(21)
+#    Time: 41100 ns  Iteration: 0  Instance: /Qb_tb
+# Break in Module Qb_tb at C:/Users/M.M/Desktop/ca5/Qb-tb.sv line 21
+quit -sim
+# End time: 19:51:37 on Jun 13,2022, Elapsed time: 0:16:17
+# Errors: 0, Warnings: 2
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# Compile of Qb-tb.sv was successful.
+# Compile of Qb_tb.vo was successful.
+# Compile of Tbc.sv failed with 1 errors.
+# Compile of partc.vo was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of TBa.sv was successful with warnings.
+# Compile of Qa-pre.sv was successful.
+# Compile of Qa-TB-prepo.sv was successful.
+# Compile of Qapro.vo was successful.
+# Compile of Qb-tb.sv was successful.
+# Compile of Qb_tb.vo was successful.
+# Compile of Tbc.sv was successful.
+# Compile of partc.vo was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo work.tbc
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo" work.tbc 
+# Start time: 22:12:02 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.tbc
+# Loading work.partc
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(194): Failed to find INSTANCE '\aclr~input '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(203): Failed to find INSTANCE '\aclr~inputclkctrl '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(155): Failed to find INSTANCE '\clock~input '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(164): Failed to find INSTANCE '\clock~inputclkctrl '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(212): Failed to find INSTANCE '\cnt_en~input '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(45): Failed to find INSTANCE '\cout~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(221): Failed to find INSTANCE '\inst|auto_generated|_~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(173): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita0 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(255): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita1 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(291): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita2 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(327): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita3 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(363): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita4 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(399): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita5 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(435): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita6 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(471): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita7 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(507): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita8 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(543): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita9 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(579): Failed to find INSTANCE '\inst|auto_generated|counter_comb_bita9~0 '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(233): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[0] '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(269): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[1] '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(305): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[2] '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(341): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[3] '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(377): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[4] '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(413): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[5] '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(449): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[6] '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(485): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[7] '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(521): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[8] '.
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(557): Failed to find INSTANCE '\inst|auto_generated|counter_reg_bit[9] '.
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(141): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(131): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(121): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(111): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(101): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(91): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(81): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(71): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(61): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3263) Part_B_v5_v.sdo(51): CELLTYPE name "cycloneive_io_obuf" does not match module name "cycloneiv_io_obuf".
+# ** Error (suppressible): (vsim-SDF-3250) Part_B_v5_v.sdo(185): Failed to find INSTANCE '\sset~input '.
+# Loading instances from partc_v.sdo
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Error: (vsim-SDF-3445) Failed to parse SDF file "C:/Users/M.M/Desktop/ca5/Part_B_v5_v.sdo".
+#    Time: 0 ps  Iteration: 0  Instance: /tbc File: C:/Users/M.M/Desktop/ca5/Tbc.sv
+# Loading timing data from partc_v.sdo
+# Error loading design
+# End time: 22:12:03 on Jun 13,2022, Elapsed time: 0:00:01
+# Errors: 41, Warnings: 5
+vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/ca5/partc_v.sdo work.tbc
+# vsim -gui -L cycloneiv_ver -L altera_ver -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/ca5/partc_v.sdo" work.tbc 
+# Start time: 22:12:28 on Jun 13,2022
+# Loading sv_std.std
+# Loading work.tbc
+# Loading work.partc
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/Users/M.M/Desktop/ca5/partc_v.sdo
+# Loading instances from partc_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/ca5/partc_v.sdo
+# Loading timing data from partc_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbc File: C:/Users/M.M/Desktop/ca5/Tbc.sv
+add wave -position end  sim:/tbc/SerOut
+add wave -position end  sim:/tbc/q
+add wave -position end  sim:/tbc/SerIn
+add wave -position end  sim:/tbc/clk
+add wave -position end  sim:/tbc/rst
+add wave -position end  sim:/tbc/i
+add wave -position end  sim:/tbc/seq
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/ca5/Tbc.sv(25)
+#    Time: 209200 ns  Iteration: 0  Instance: /tbc
+# Break in Module tbc at C:/Users/M.M/Desktop/ca5/Tbc.sv line 25
