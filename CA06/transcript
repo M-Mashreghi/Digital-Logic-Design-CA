@@ -1,0 +1,306 @@
+# Compile of controller.sv was successful with warnings.
+# Compile of controller.sv was successful with warnings.
+# Compile of controller.sv failed with 2 errors.
+# Compile of controller.sv was successful with warnings.
+# Compile of controller.sv was successful with warnings.
+# Compile of tb_cosh.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of controller.sv was successful with warnings.
+# Compile of tb_cosh.sv was successful.
+# Compile of partdddd.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of controller.sv was successful with warnings.
+# Compile of tb_cosh.sv was successful.
+# Compile of partdddd.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of controller.sv was successful with warnings.
+# Compile of tb_cosh.sv was successful.
+# Compile of partdddd.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of controller.sv was successful with warnings.
+# Compile of tb_cosh.sv was successful.
+# Compile of partdddd.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_coshx -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# vsim -gui work.tb_coshx -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo" 
+# Start time: 17:47:58 on Jun 21,2022
+# Loading sv_std.std
+# Loading work.tb_coshx
+# Loading work.partddd12d
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading cycloneive_ver.cycloneive_mac_mult
+# Loading cycloneive_ver.cycloneive_mac_data_reg
+# Loading cycloneive_ver.cycloneive_mac_sign_reg
+# Loading cycloneive_ver.cycloneive_mac_mult_internal
+# Loading cycloneive_ver.cycloneive_mac_out
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading instances from partdddd_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading timing data from partdddd_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_coshx File: C:/Users/M.M/Desktop/CA6/tb_cosh.sv
+add wave -position end  sim:/tb_coshx/clk
+add wave -position end  sim:/tb_coshx/rst
+add wave -position end  sim:/tb_coshx/start
+add wave -position end  sim:/tb_coshx/x
+add wave -position end  sim:/tb_coshx/done
+add wave -position end  sim:/tb_coshx/result
+add wave -position end  sim:/tb_coshx/ADDER
+add wave -position end  sim:/tb_coshx/outMUX
+add wave -position end  sim:/tb_coshx/counting
+add wave -position end  sim:/tb_coshx/c_out_counter
+add wave -position end  sim:/tb_coshx/select_MUX
+add wave -position end  sim:/tb_coshx/enable_counter
+add wave -position end  sim:/tb_coshx/zero_counter
+add wave -position end  sim:/tb_coshx/LOAD_X
+add wave -position end  sim:/tb_coshx/LOAD_TEMP
+add wave -position end  sim:/tb_coshx/LOAD_R
+add wave -position end  sim:/tb_coshx/ps
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA6/tb_cosh.sv(67)
+#    Time: 26290 ns  Iteration: 0  Instance: /tb_coshx
+# Break in Module tb_coshx at C:/Users/M.M/Desktop/CA6/tb_cosh.sv line 67
+quit -sim
+# End time: 19:08:08 on Jun 21,2022, Elapsed time: 1:20:10
+# Errors: 0, Warnings: 15
+# Compile of partdddd.vo was successful.
+vsim -gui -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo work.tb_coshx
+# vsim -gui -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo" work.tb_coshx 
+# Start time: 19:10:45 on Jun 21,2022
+# Loading sv_std.std
+# Loading work.tb_coshx
+# Loading work.partddd12d
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading cycloneive_ver.cycloneive_mac_mult
+# Loading cycloneive_ver.cycloneive_mac_data_reg
+# Loading cycloneive_ver.cycloneive_mac_sign_reg
+# Loading cycloneive_ver.cycloneive_mac_mult_internal
+# Loading cycloneive_ver.cycloneive_mac_out
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading instances from partdddd_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading timing data from partdddd_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_coshx File: C:/Users/M.M/Desktop/CA6/tb_cosh.sv
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA6/tb_cosh.sv(67)
+#    Time: 26290 ns  Iteration: 0  Instance: /tb_coshx
+# Break in Module tb_coshx at C:/Users/M.M/Desktop/CA6/tb_cosh.sv line 67
+run -all
+add wave -position end  sim:/tb_coshx/clk
+add wave -position end  sim:/tb_coshx/rst
+add wave -position end  sim:/tb_coshx/start
+add wave -position end  sim:/tb_coshx/x
+add wave -position end  sim:/tb_coshx/done
+add wave -position end  sim:/tb_coshx/result
+add wave -position end  sim:/tb_coshx/ADDER
+add wave -position end  sim:/tb_coshx/outMUX
+add wave -position end  sim:/tb_coshx/counting
+add wave -position end  sim:/tb_coshx/c_out_counter
+add wave -position end  sim:/tb_coshx/select_MUX
+add wave -position end  sim:/tb_coshx/enable_counter
+add wave -position end  sim:/tb_coshx/zero_counter
+add wave -position end  sim:/tb_coshx/LOAD_X
+add wave -position end  sim:/tb_coshx/LOAD_TEMP
+add wave -position end  sim:/tb_coshx/LOAD_R
+add wave -position end  sim:/tb_coshx/ps
+# Break key hit
+# Break in Module tb_coshx at C:/Users/M.M/Desktop/CA6/tb_cosh.sv line 36
+quit -sim
+# End time: 19:31:20 on Jun 21,2022, Elapsed time: 0:20:35
+# Errors: 0, Warnings: 4
+# Load canceled
+# Compile of controller.sv was successful with warnings.
+# Compile of tb_cosh.sv was successful.
+# Compile of partdddd.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of controller.sv was successful with warnings.
+# Compile of tb_cosh.sv was successful.
+# Compile of partdddd.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of controller.sv was successful with warnings.
+# Compile of tb_cosh.sv was successful.
+# Compile of partdddd.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo work.tb_coshx
+# vsim -gui -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo" work.tb_coshx 
+# Start time: 19:50:13 on Jun 21,2022
+# Loading sv_std.std
+# Loading work.tb_coshx
+# Loading work.partddd12d
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading cycloneive_ver.cycloneive_mac_mult
+# Loading cycloneive_ver.cycloneive_mac_data_reg
+# Loading cycloneive_ver.cycloneive_mac_sign_reg
+# Loading cycloneive_ver.cycloneive_mac_mult_internal
+# Loading cycloneive_ver.cycloneive_mac_out
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading instances from partdddd_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading timing data from partdddd_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_coshx File: C:/Users/M.M/Desktop/CA6/tb_cosh.sv
+add wave -position end  sim:/tb_coshx/clk
+add wave -position end  sim:/tb_coshx/rst
+add wave -position end  sim:/tb_coshx/start
+add wave -position end  sim:/tb_coshx/x
+add wave -position end  sim:/tb_coshx/done
+add wave -position end  sim:/tb_coshx/result
+add wave -position end  sim:/tb_coshx/ADDER
+add wave -position end  sim:/tb_coshx/sel_output
+add wave -position end  sim:/tb_coshx/counting
+add wave -position end  sim:/tb_coshx/co_coun
+add wave -position end  sim:/tb_coshx/sel_num
+add wave -position end  sim:/tb_coshx/enc
+add wave -position end  sim:/tb_coshx/zc
+add wave -position end  sim:/tb_coshx/ps
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA6/tb_cosh.sv(63)
+#    Time: 26290 ns  Iteration: 0  Instance: /tb_coshx
+# Break in Module tb_coshx at C:/Users/M.M/Desktop/CA6/tb_cosh.sv line 63
+quit -sim
+# End time: 19:56:46 on Jun 21,2022, Elapsed time: 0:06:33
+# Errors: 0, Warnings: 6
+vsim -gui -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo work.tb_coshx
+# vsim -gui -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo" work.tb_coshx 
+# Start time: 19:57:07 on Jun 21,2022
+# Loading sv_std.std
+# Loading work.tb_coshx
+# Loading work.partddd12d
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading cycloneive_ver.cycloneive_mac_mult
+# Loading cycloneive_ver.cycloneive_mac_data_reg
+# Loading cycloneive_ver.cycloneive_mac_sign_reg
+# Loading cycloneive_ver.cycloneive_mac_mult_internal
+# Loading cycloneive_ver.cycloneive_mac_out
+# Loading instances from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading instances from partdddd_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading timing data from partdddd_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_coshx File: C:/Users/M.M/Desktop/CA6/tb_cosh.sv
+add wave -position end  sim:/tb_coshx/clk
+add wave -position end  sim:/tb_coshx/rst
+add wave -position end  sim:/tb_coshx/start
+add wave -position end  sim:/tb_coshx/x
+add wave -position end  sim:/tb_coshx/done
+add wave -position end  sim:/tb_coshx/result
+add wave -position end  sim:/tb_coshx/ADDER
+add wave -position end  sim:/tb_coshx/sel_output
+add wave -position end  sim:/tb_coshx/counting
+add wave -position end  sim:/tb_coshx/co_coun
+add wave -position end  sim:/tb_coshx/sel_num
+add wave -position end  sim:/tb_coshx/enc
+add wave -position end  sim:/tb_coshx/zc
+add wave -position end  sim:/tb_coshx/ps
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA6/tb_cosh.sv(63)
+#    Time: 26290 ns  Iteration: 0  Instance: /tb_coshx
+# Break in Module tb_coshx at C:/Users/M.M/Desktop/CA6/tb_cosh.sv line 63
+quit -sim
+# End time: 21:49:49 on Jun 21,2022, Elapsed time: 1:52:42
+# Errors: 0, Warnings: 1
+# Compile of controller.sv was successful with warnings.
+# Compile of tb_cosh.sv was successful.
+# Compile of partdddd.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp /cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo work.tb_coshx
+# vsim -gui -L altera_ver -L cycloneiv -L cycloneive_ver -sdftyp "/cut=C:/Users/M.M/Desktop/CA6/partdddd_v.sdo" work.tb_coshx 
+# Start time: 21:50:17 on Jun 21,2022
+# Loading sv_std.std
+# Loading work.tb_coshx
+# Loading work.partddd12d
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading cycloneive_ver.cycloneive_mac_mult
+# Loading cycloneive_ver.cycloneive_mac_data_reg
+# Loading cycloneive_ver.cycloneive_mac_sign_reg
+# Loading cycloneive_ver.cycloneive_mac_mult_internal
+# Loading cycloneive_ver.cycloneive_mac_out
+# Loading instances from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading instances from partdddd_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/M.M/Desktop/CA6/partdddd_v.sdo
+# Loading timing data from partdddd_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_coshx File: C:/Users/M.M/Desktop/CA6/tb_cosh.sv
+add wave -position end  sim:/tb_coshx/clk
+add wave -position end  sim:/tb_coshx/rst
+add wave -position end  sim:/tb_coshx/start
+add wave -position end  sim:/tb_coshx/x
+add wave -position end  sim:/tb_coshx/done
+add wave -position end  sim:/tb_coshx/result
+add wave -position end  sim:/tb_coshx/ADDER
+add wave -position end  sim:/tb_coshx/sel_output
+add wave -position end  sim:/tb_coshx/counting
+add wave -position end  sim:/tb_coshx/co_coun
+add wave -position end  sim:/tb_coshx/sel_num
+add wave -position end  sim:/tb_coshx/enc
+add wave -position end  sim:/tb_coshx/zc
+add wave -position end  sim:/tb_coshx/ps
+# Load canceled
+run -all
+# ** Note: $stop    : C:/Users/M.M/Desktop/CA6/tb_cosh.sv(63)
+#    Time: 26290 ns  Iteration: 0  Instance: /tb_coshx
+# Break in Module tb_coshx at C:/Users/M.M/Desktop/CA6/tb_cosh.sv line 63
